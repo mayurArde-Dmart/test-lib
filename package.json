@@ -1,8 +1,5 @@
 {
-  "name": "mayurArde-Dmart",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/mayurArde-Dmart"
-  },
+  "name": "@mayurArde-Dmart/test-lib",
   "version": "1.0.0",
   "description": "test library for fast dev",
   "scripts": {
@@ -28,5 +25,11 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mayurArde-Dmart"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4"
+  }
 }
