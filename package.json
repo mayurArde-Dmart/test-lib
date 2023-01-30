@@ -1,6 +1,6 @@
 {
   "name": "@meradmart/buttonLib",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "test library for fast dev",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -31,6 +31,10 @@
     "registry": "https://npm.pkg.github.com/mayurArde-Dmart"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4"
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@material-ui/pickers": "^3.3.10",
+    "@material-ui/styles": "^4.11.4"
   }
 }
