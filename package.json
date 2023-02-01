@@ -1,12 +1,16 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "@meradmart/buttonLib",
   "version": "1.0.8",
+=======
+  "name": "@mayurArde-Dmart/test-lib",
+  "version": "1.0.0",
+>>>>>>> parent of 3f2c327 (added artifact)
   "description": "test library for fast dev",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c",
-    "deploy": "npx google-artifactregistry-auth && npm publish"
+    "rollup": "rollup -c"
   },
   "author": "mayur",
   "license": "ISC",
