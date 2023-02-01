@@ -1,16 +1,11 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
   "name": "@meradmart/buttonLib",
-  "version": "1.0.8",
-=======
-  "name": "@mayurArde-Dmart/test-lib",
-  "version": "1.0.0",
->>>>>>> parent of 3f2c327 (added artifact)
+  "version": "1.0.14",
   "description": "test library for fast dev",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "deploy": "npx google-artifactregistry-auth && npm publish"
   },
   "author": "mayur",
   "license": "ISC",
@@ -18,14 +13,10 @@
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
-    "@types/lodash-es": "^4.17.6",
     "@types/react": "^18.0.27",
-    "postcss": "^8.4.21",
-    "postcss-loader": "^7.0.2",
     "react": "^18.2.0",
     "rollup": "^3.10.1",
     "rollup-plugin-dts": "^5.1.1",
-    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4"
   },
@@ -40,18 +31,6 @@
     "registry": "https://npm.pkg.github.com/mayurArde-Dmart"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.61",
-    "@material-ui/styles": "^4.11.4",
-    "@rollup/plugin-image": "^3.0.2",
-    "@types/react-dom": "^18.0.10",
-    "lodash-es": "^4.17.21",
-    "nanoid": "^3.3.4",
-    "react-dom": "^18.2.0",
-    "rollup-plugin-copy": "^3.4.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-svg-import": "^1.6.0",
-    "rollup-plugin-typescript2": "^0.34.1"
+    "@material-ui/core": "^4.12.4"
   }
 }
